@@ -1,5 +1,5 @@
 <template>
-  <section class="container">
+  <section class="container1">
     <div>
       <logo/>
       <h1 class="title">
@@ -15,6 +15,8 @@
         <nuxt-link to="/about">about page</nuxt-link>
         <br>
         <nuxt-link to="/cache">cache page</nuxt-link>
+        <br>
+        <nuxt-link to="/user">user page</nuxt-link>
       </div>
     </div>
   </section>
@@ -31,7 +33,7 @@ export default {
 </script>
 
 <style>
-.container
+.container1
 {
   min-height: 100vh;
   display: flex;

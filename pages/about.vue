@@ -18,6 +18,7 @@ export default {
     mata: [
       { hid: 'description', name: 'description', content: 'About page description' }
     ]
-  }
+  },
+  transition: 'bounce'
 }
 </script>

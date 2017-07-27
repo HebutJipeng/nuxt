@@ -1,3 +1,4 @@
 export default function ({ store, route, redirect }) {
-	store.commit('ADD_VISIT', route.path)
+  console.log(route.path)
+  store.commit('ADD_VISIT', route.path)
 }

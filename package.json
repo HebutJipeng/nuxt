@@ -6,6 +6,7 @@
   "private": true,
   "dependencies": {
     "axios": "^0.16.2",
+    "element-ui": "^1.4.0",
     "lru-cache": "^4.1.1",
     "mini-toastr": "^0.6.5",
     "nuxt": "latest",

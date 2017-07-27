@@ -17,7 +17,7 @@ module.exports = {
   ** Customize the progress-bar color
   */
   // loading: { color: '#3B8070' },
-  loading: '~/components/loading.vue'
+  loading: '~/components/loading.vue',
   /*
   ** Build configuration
   */
@@ -47,13 +47,14 @@ module.exports = {
    * 全局中间件
    */
   router: {
-    middleware: 'stats'
+    middleware: ['stats', 'visits', 'user-agent']
   },
   /**
    * 插件
    */
   plugins: [
-    { src: '~/plugins/vue-notifications.js', ssr: false }
+    { src: '~/plugins/vue-notifications.js', ssr: false },
+    { src: '~/plugins/vue-element.js', ssr: true }
   ],
   /**
    * 页面缓存
