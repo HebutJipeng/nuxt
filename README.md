@@ -23,3 +23,6 @@ For detailed explanation on how things work, checkout the [Nuxt.js docs](https:/
 
 ## 文档
 https://zh.nuxtjs.org/examples/middleware
+
+## express + nuxt 解决办法
+https://github.com/nuxt-community/express-template
